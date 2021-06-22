@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duke Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
+    <link type="text/css" href="skitter-master/dist/skitter.css" media="all" rel="stylesheet" />
+    
+</head>
+<body>
+    <!--make the shape for the main page by svg-->
+    <div id ="full">
+    <div class="draw">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,224L1440,32L1440,320L0,320Z"></path></svg>
+    </div>
+    <header>
+        <img src="logo_3-removebg-preview.png" alt="logo" id="logo">
+        <h3><span>d</span>uke</h3>
+        <ul>
+            
+            <li><a href="#">Home</a></li>
+            <li id ="list"><a href="#">Categories</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+        <div id="icons">
+            <img src="more.png" alt="more Icon">
+        </div>
+    </header>
+    <div id="main-img"  data-aos="zoom-in"  data-aos-duration="3000">
+    <div>
+        <img src="clothe_4-removebg-preview.png" alt="main img">
+    </div>
+    </div>
+    <div id="heading">
+        <h1>duke Store</h1>
+        <p>duke store help people to be more fashionable.We have a large collection<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; of clothes & bags & shoes and scarves.</p>
+        <button>Our collection</button>
+    </div>
+    <!--make the category menu -->
+    <div id="category"></div>
+    <div id="caregory-info">
+        <h3 id="clothing-name">Clothing Types</h3>
+        <div id="clothing">
+          <a href="#"><img src="summer.jpg" alt="summer clothes"></a>
+            <a href="#"><img src="work wear.jpg" alt="workwear clothes"></a>
+                <a href="#"><img src="babyclothe.jpg" alt="babyclothes"></a>
+                    <a href="#"><img src="clothe 2.jpg" alt="modest fashion"></a>
+                        <a href="#"><img src="wedding.jpg" alt="weddingclothes"></a>
+        </div>
+        <div id="clothing-info">
+            <a href="#"> <p>Summer clothing</p></a>
+                <a href="#"><p>Workwear</p></a>
+                    <a href="#"><p>Baby clothing</p></a>
+                        <a href="#"> <p>Modest fashion</p></a>
+                            <a href="#"> <p>Wedding</p></a>
+        </div>
+        <h3 id="categories">Our categories</h3>
+        <div id="types">
+            <a href="#"><img src="clothe 6.jpg" alt="clothing"></a>
+            <a href="#"> <img src="shoes.jpg" alt="shoes"></a>
+            <br>
+            <a href="#"><img src="bags.jpg" alt="bags"></a>
+            <a href="#"><img src="scraves.jpg" alt="scraves"></a>
+        </div>
+        <div id="more">
+            <a href="#">Newbrands</a>
+            <br>
+            <a href="#">Dresses</a><br>
+            <a href="#">Jeans</a><br>
+            <a href="#">Skirts</a><br>
+            <a href="#">Shorts</a><br>
+            <a href="#">Tops</a><br>
+            <a href="#">Suits</a><br>
+            <a href="#">Coats & Jackets</a><br>
+            </div>
+
+            <div id ="more2">
+            <a href="#">Shoes</a><br>
+            <a href="#">Sandals</a><br>
+            <a href="#">Slippers</a><br>
+            <a href="#">Trainers</a><br>
+            <a href="#">Heels</a><br>
+            <a href="#">Flat shoes</a><br>
+            <a href="#">Bags</a><br>
+            <a href="#">Scraves</a><br>     
+        </div>
+        <p id ="remove">___</p>
+    </div>    
+    <!--the next part-->
+
+<!--our categories part-->
+<h2>Our Categories</h2>
+<div id="fashion">
+    <div data-aos="fade-up" data-aos-duration="2000">
+    <div id="clothe">
+        <img src="clothe 8.jpg" alt="clothe fashion">
+        <h3>Modest Fashion</h3>
+    </div>
+    </div>
+
+    <div data-aos="fade-right" data-aos-duration="2000">
+        <div id="shoes">
+        <img src="shoes.jpg" alt="shoes fashion">
+        <h3>Shoes Fashion</h3>
+    </div>
+    </div>
+
+    <div data-aos="fade-left" data-aos-duration="2000">
+        <div id="bags">
+        <img src="bags2.jpg" alt="bags fashion">
+        <h3>bags Fashion</h3>
+    </div>
+    </div>
+    
+    <div data-aos="fade-down" data-aos-duration="2000">
+        <div id="scarves">
+        <img src="scarves2.webp" alt="scarves fashion">
+        <h3>Scarves Fashion</h3>
+    </div>
+    </div>
+
+</div>
+<!--the best saller part-->
+<div class="best">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L48,165.3C96,139,192,85,288,90.7C384,96,480,160,576,170.7C672,181,768,139,864,122.7C960,107,1056,117,1152,144C1248,171,1344,213,1392,234.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    <h1>Best Saller</h1>
+    <p>We collect the best saller of the week in our collection here. There are clothes & bags & shoes and scarves.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can choose from them or see our store pick up.</p>
+    <!-- 3D Slideshow Section -->
+    <div class ="modern"> 
+    <div class ="hi-slide">
+        <div class ="hi-prev"></div>
+        <div class ="hi-next"></div>
+    <ul>
+        <li><img src="slide4.jpg"></li>
+        <li><img src="slide1.jpg"></li>
+        <li><img src="slide0.jpg"></li>
+        <li><img src="slide8.jpg"></li>
+        <li><img src="slide7.jpg"></li>
+        <li><img src="slide2.jpg"></li>
+        <li><img src="slide3.jpg"></li>
+        <li><img src="slide5.jpg"></li>
+    </ul>
+    </div>
+</div>
+
+<!--the store  pick -->
+<div id="pick">
+    <h1>Our Store's Pick</h1>
+    <div class="skitter skitter-large">
+        <ul>
+          <li>
+            <a href="#cut"><img src="ba6.jpg" class="cut" /></a>
+            <div class="label_text"><p>cut</p></div>
+          </li>
+          
+          <li>
+            <a href="#swapBarsBack"><img src="ba8.jpg" class="swapBarsBack" /></a>
+            <div class="label_text"><p>swapBarsBack</p></div>
+          </li>
+          <li>
+            <a href="#swapBarsBack"><img src="ba9.jpg" class="swapBarsBack" /></a>
+            <div class="label_text"><p>swapBarsBack</p></div>
+          </li>
+          <li>
+            <a href="#swapBarsBack"><img src="ba1.jpg" class="swapBarsBack" /></a>
+            <div class="label_text"><p>swapBarsBack</p></div>
+          </li>
+          <li>
+            <a href="#swapBarsBack"><img src="ba5.jpg" class="swapBarsBack" /></a>
+            <div class="label_text"><p>swapBarsBack</p></div>
+          </li>
+        </ul>
+      </div>
+      
+    <!--the next slide-->
+
+    <div class="skitter skitter-large" id ="skitter-two">
+        <ul>
+          <li>
+            <a href="#cut"><img src="sh7.jpg" class="cut" /></a>
+            <div class="label_text"><p>cut</p></div>
+          </li>
+          
+          <li>
+            <a href="#swapBarsBack"><img src="sh0.jpg" class="swapBarsBack" /></a>
+            <div class="label_text"><p>swapBarsBack</p></div>
+          </li>
+          <li>
+            <a href="#swapBarsBack"><img src="sh6.jpg" class="swapBarsBack" /></a>
+            <div class="label_text"><p>swapBarsBack</p></div>
+          </li>
+          <li>
+            <a href="#swapBarsBack"><img src="sh2.jpg" class="swapBarsBack" /></a>
+            <div class="label_text"><p>swapBarsBack</p></div>
+          </li>
+          <li>
+            <a href="#swapBarsBack"><img src="sh5.jpg" class="swapBarsBack" /></a>
+            <div class="label_text"><p>swapBarsBack</p></div>
+          </li>
+        </ul>
+      </div>
+      
+    <!--the next slide-->
+    <div class="skitter skitter-large" id ="skitter-three">
+        <ul>
+          <li>
+            <a href="#cut"><img src="sc6.jpg" class="cut" /></a>
+            <div class="label_text"><p>cut</p></div>
+          </li>
+          
+          <li>
+            <a href="#swapBarsBack"><img src="sc9.jpg" class="swapBarsBack" /></a>
+            <div class="label_text"><p>swapBarsBack</p></div>
+          </li>
+          <li>
+            <a href="#swapBarsBack"><img src="sc5.jpg" class="swapBarsBack" /></a>
+            <div class="label_text"><p>swapBarsBack</p></div>
+          </li>
+          <li>
+            <a href="#swapBarsBack"><img src="sc0.jpg" class="swapBarsBack" /></a>
+            <div class="label_text"><p>swapBarsBack</p></div>
+          </li>
+          <li>
+            <a href="#swapBarsBack"><img src="sc4.jpg" class="swapBarsBack" /></a>
+            <div class="label_text"><p>swapBarsBack</p></div>
+          </li>
+        </ul>
+      </div>
+      
+    <!--the next slide-->
+    <div class="skitter skitter-large" id ="skitter-four">
+        <ul>
+          <li>
+            <a href="#cut"><img src="dres1.jpg" class="cut" /></a>
+            <div class="label_text"><p>cut</p></div>
+          </li>
+          
+          <li>
+            <a href="#swapBarsBack"><img src="dres2.jpg" class="swapBarsBack" /></a>
+            <div class="label_text"><p>swapBarsBack</p></div>
+          </li>
+          <li>
+            <a href="#swapBarsBack"><img src="dres3.jpg" class="swapBarsBack" /></a>
+            <div class="label_text"><p>swapBarsBack</p></div>
+          </li>
+          <li>
+            <a href="#swapBarsBack"><img src="dres4.jpg" class="swapBarsBack" /></a>
+            <div class="label_text"><p>swapBarsBack</p></div>
+          </li>
+          <li>
+            <a href="#swapBarsBack"><img src="dres5.jpg" class="swapBarsBack" /></a>
+            <div class="label_text"><p>swapBarsBack</p></div>
+          </li>
+        </ul>
+    </div>
+</div>
+<!--the counter part -->
+<div id="count">
+    <img src="draw2.png" alt="cloth illystration">
+    <h1>Deal of the day</h1>
+    <div data-aos="fade-down-right" id ="hoursDiv">
+    
+        <div id="hours">
+        <h4>Hours</h4>
+        <h3 id ="hoursShow"></h3>
+    </div>
+    </div>
+
+    <div data-aos="fade-down-right" id ="minutesDiv">
+    
+        <div id="minutes">
+        <h4>Minutes</h4>
+        <h3 id ="minutesShow"></h3>
+    </div>
+    </div>
+
+    <div data-aos="fade-down-right" id ="secondsDiv">
+    
+        <div id="seconds">
+        <h4>seconds</h4>
+        <h3 id ="secondsShow"></h3>
+    </div>
+    </div>
+</div>
+
+<!--the end of this part-->
+<!--the app part-->
+<div id="app">
+<h1>Download our app</h1>
+<p>Now, you can download our app from apple store for android or iPhone.You can choose anything &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;anywhere, any time.Our app is friendly to use an you can find clothes<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or anything very fast.  install now</p>
+<div id="android">
+    <h5>Download on<br>&nbsp;&nbsp;&nbsp; Android</h5>
+    <img src ="android.png">
+</div>
+
+<div id="apple">
+    <h5>Download on<br>&nbsp;&nbsp;&nbsp; iPhone</h5>
+    <img src ="apple.png">
+</div>
+</div>
+<!--the end of this part-->
+<div id="news">
+    <h1>Latest News</h1>
+
+
+    <div data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+    <div id ="first">
+        <img src ="new.jpg">
+        <h2>Family wear<br>(New design)</h2>
+    </div>
+    </div>
+
+    <div data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+    <div id ="second">
+        <img src ="new2.jpg">
+        <h2>New looks<br>(New design)</h2>
+    </div>
+    </div>
+
+    <div data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+    <div id ="third">
+        <img src ="new3.jpg">
+        <h2>New collection<br>(New design)</h2>
+    </div>
+    </div>
+
+</div>
+
+
+
+
+
+<!--make the about part-->
+<div id="about">
+    <h2 id ="aboutInfo">About Us</h2>
+    <p id="aboutPra">duke is a store for women to help them be more fashionable.We have a collection of clothes & bags & shoes & scarves.</p>
+    <h2 id="links">Useful links</h2>
+    <ul>
+        <li>Help center</li>
+        <li>Support Us</li>
+        <li>Contact Us</li>
+        <li>Terms & conditions</li>
+        <li>Privacy Policy</li>
+    </ul>
+    <h2 id="latest">Latest News</h2>
+    <div id="images">
+        <img src ="shoe.jpg">
+        <img src ="family wearing.jpg">
+    </div>
+    <h2 id ="location">Location</h2>
+    <img src ="map.jpg" id ="map">
+    <h2 id="follow">Follow Us</h2>
+    <div id="icons">
+        <img src ="twitter (2).png">
+        <img src ="facebook (1).png">
+        <img src ="instagram (1).png">
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="skitter-master/examples/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="skitter-master/dist/jquery.skitter.min.js"></script>
+<script>
+$(function(){
+  $('.skitter-large').skitter({
+  })
+});
+</script>   
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</div>
+  
+<script src ="nan/js/jquery.hislide.js"></script>
+  <script>
+      $('.hi-slide').hiSlide();
+  </script>
+
+</body>
+</html>
